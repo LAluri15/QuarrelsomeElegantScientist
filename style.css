@@ -1,0 +1,62 @@
+body {
+  background-color: lightcyan;
+}
+h1{
+  color: rgb(90, 81, 81);
+  text-align: center;
+}
+h2{
+  color: rgb(90, 81, 81);
+  text-align: center;
+  font-size: 30px;
+}
+h3{
+  color: rgb(90, 81, 81);
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+ul{ 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: white;
+
+}
+ul li{
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #555;
+  color: white;
+}
+a {
+  text-decoration: none; 
+}
+#looks {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#looks td, #looks th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#looks tr:nth-child(even){background-color: #f2f2f2;}
+
+#looks tr:hover {background-color: #ddd;}
+
+#looks th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(199, 143, 224);
+  color: white;
+}
