@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+    <body>
+    <div class="grid-container">
+    <header class="grid-item header">
+      <h1>Page 2<h1>
+    </header>
+    <nav class="grid-item nav">
+      <u1 id="nav ul">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="page1.html">Page 1</a></li>
+      <li><a href="page2.html">Page 2</a></li>
+      <li><a href="page3.html">Page 3</a></li>
+      <li><a href=https://www.columbusstate.edu/>CSU</a></li>
+     </u1> 
+    </nav>
+    </body>
+    <main>
+     <section class="grid-item section">
+     <form method="post" action="https://webdevbasics.net/scripts/yoga.php" onsubmit="return validateForm()">
+    <fieldset class="frmStyle">
+      <legend>Personal Info</legend>
+       <label for="lname"> Last name:</label><input type="text" id="lname" name="lname" size="50" maxlength="50" placeholder="Doe"required="required"><br>  
+       <label for="fname"> First name:</label><input type="text" id="fname" name="fname" size="50" maxlength="50" placeholder="John" required="required"><br> 
+       <label for"myEmail"> E-mail:</label><input type="email" id="myEmail" name="myEmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="required"><br>
+       <label for="phone">Enter a phone number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-145-6781" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required"><br>
+       <label for="state">State:</label>
+        <select id="state" name="state">
+          <option value="al">AL</option>
+          <option value="fl">FL</option>
+          <option value="ga">GA</option>
+        </select>
+        </br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+  </fieldset>
+     <fieldset class="frmStyle">
+       <legend>Username and Password</legend>
+       <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd" pattern=".{8,}" title="Eight or more characters"><br>
+    <label for="pwd">Re-enter Password:</label><br>
+    <input type="password" id="pwd" name="pwd" pattern=".{8,}" title="Eight or more characters">
+     </fieldset>
+     <input type="submit" value="Submit">
+</form>
+      </section>
+      <article class="grid-item article">
+        <p> Make a webpage that uses a table to create two columns. In the left column should be a bulleted list of 5 html tags you have learned about. In the right column should be a numbered list of 5 attributes of html tags you have learned about.</p>
+      </article>
+    </main>
+    <footer class="grid-item footer">
+      <p>Creater: Likhita Aluri |2020| <a href="mailto:aluri_likhita@columbusstate.edu">aluri_likhita@columbusstate.edu</a></p>
+    </footer>
+    <script src="script.js"></script>
+</html>

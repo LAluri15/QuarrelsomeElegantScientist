@@ -18,8 +18,6 @@
 .nav {
   grid-column: 1 ;
   grid-row: 2;
-}
-.nav {
   background-color: gainsboro; 
   list-style-type: none;
   text-align: center;
@@ -36,20 +34,48 @@ li a:hover {
   background-color: #db94d2;
 }
 .section {
-	grid-column: 1 ;
+	grid-column: 2 ;
   grid-row: 2 ;
-  background-color: rgb(127, 218, 206); 
+  background-color: rgb(206, 250, 244); 
   font-family: "Times New Roman", Times, serif;
 }
+#looks {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#looks td, #looks th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#looks tr:nth-child(even){background-color: #f2f2f2;}
+
+#looks tr:hover {background-color: #ddd;}
+
+#looks th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(199, 143, 224);
+  color: white;
+}
 .article {
-	grid-column: 1 ;
-  grid-row: 3;
+	grid-column: 3 ;
+  grid-row: 2;
   background-color: lightgoldenrodyellow;  
   font-family: "Times New Roman", Times, serif;
 }
 .footer {
   grid-column: 1 / span 3;
-  grid-row: 4;
+  grid-row: 3;
   background-color: rgb(174, 189, 171); 
   font-family: "Times New Roman", Times, serif;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .nav{width: 100%;}
+  .section {width:100%;}
+  .article {width: 100%;}
 }
