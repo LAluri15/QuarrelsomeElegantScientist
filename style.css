@@ -73,9 +73,8 @@ li a:hover {
   background-color: rgb(174, 189, 171); 
   font-family: "Times New Roman", Times, serif;
 }
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .nav{width: 100%;}
-  .section {width:100%;}
-  .article {width: 100%;}
+@media only screen and (max-width:620px){
+.nav,.section ,.article,.grid-container {
+    width: 100%;
+  }
 }
