@@ -1,62 +1,55 @@
-body {
-  background-color: lightcyan;
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: rgb(73, 178, 226);
+  padding: 10px;
 }
-h1{
-  color: rgb(90, 81, 81);
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-}
-h2{
-  color: rgb(90, 81, 81);
-  text-align: center;
+  padding: 20px;
   font-size: 30px;
 }
-h3{
-  color: rgb(90, 81, 81);
-  text-align: center;
+.header {
+  grid-column: 1 / span 3;
+  grid-row: 1;
 }
-img {
-  width: 100%;
+.nav {
+  grid-column: 1 ;
+  grid-row: 2;
 }
-ul{ 
+.nav {
+  background-color: gainsboro; 
   list-style-type: none;
+  text-align: center;
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: white;
-
 }
-ul li{
+.nav li {
   display: block;
-  color: black;
-  padding: 8px 16px;
+  font-size: 20px;
+  padding: 20px;
   text-decoration: none;
 }
-li a:hover{
-  background-color: #555;
-  color: white;
+li a:hover {
+  background-color: #db94d2;
 }
-a {
-  text-decoration: none; 
+.section {
+	grid-column: 1 ;
+  grid-row: 2 ;
+  background-color: rgb(127, 218, 206); 
+  font-family: "Times New Roman", Times, serif;
 }
-#looks {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+.article {
+	grid-column: 1 ;
+  grid-row: 3;
+  background-color: lightgoldenrodyellow;  
+  font-family: "Times New Roman", Times, serif;
 }
-
-#looks td, #looks th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#looks tr:nth-child(even){background-color: #f2f2f2;}
-
-#looks tr:hover {background-color: #ddd;}
-
-#looks th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: rgb(199, 143, 224);
-  color: white;
+.footer {
+  grid-column: 1 / span 3;
+  grid-row: 4;
+  background-color: rgb(174, 189, 171); 
+  font-family: "Times New Roman", Times, serif;
 }
